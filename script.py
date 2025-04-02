@@ -7,5 +7,5 @@ print("Hello Worlllddd")
 i=0
 while True:
     print(i)
-    i+=2
-    sleep(1)
+    i+=5
+    sleep(5)
