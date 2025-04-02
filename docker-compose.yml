@@ -3,8 +3,6 @@ services:
   myfirstserver:
     container_name: serverpython
     command: python3 hw.py
-    ports:
-      - 1234:1234
     build: 
       context: .
       dockerfile: Dockerfile
