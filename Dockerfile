@@ -5,7 +5,7 @@ FROM python:3.11
 WORKDIR /app
 
 # Copy the Python script to the container
-COPY script.py .
+COPY . /app
 
 # Run the script when the container starts
 CMD ["python", "script.py"]
