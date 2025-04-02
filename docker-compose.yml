@@ -4,3 +4,5 @@ services:
     container_name: python_script
     restart: always
     tty: true
+    environment:
+      - API_KEY=${API_KEY}
