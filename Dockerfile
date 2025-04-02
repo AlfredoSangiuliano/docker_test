@@ -1,4 +1,11 @@
-FROM python
+# Use the official Python image as base
+FROM python:3.11
+
+# Set the working directory
 WORKDIR /app
-COPY . /app
-CMD ["python3","app.py"]
+
+# Copy the Python script to the container
+COPY script.py .
+
+# Run the script when the container starts
+CMD ["python", "script.py"]
